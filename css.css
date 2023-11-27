@@ -65,6 +65,54 @@ body {
     background-color: transparent;
 }
 
+#course-content{
+    width: 800px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+#course-content h2{
+    margin-bottom: 24px;
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+ #course-content p{
+
+}
+
+.modules-list{
+    margin: 24px 0;
+} 
+
+.module{
+    width: 530px;
+    padding: 16px;
+    margin: 0 135px 24px 135px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.module span{
+    color: #33A8DB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 /* footer{
     border-top: 1px solid #33A8DB;
