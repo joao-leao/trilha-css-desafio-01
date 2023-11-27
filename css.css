@@ -1,0 +1,102 @@
+@import url('reset.css');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+.banner {
+    height: 37.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.265),rgba(5, 138, 156, 0.203), rgba(0, 0, 0, 0.265)), url(./assets/images/banner.png);
+    background-size: cover;
+    border-bottom: 1px solid #33A8DB;
+    padding-top: 3.75rem;
+}
+
+.banner-content {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 260px;
+    height: 260px;
+    padding-top: 3.5rem;
+    padding: 16px;
+    margin: 0 170px 16px 170px;
+    border-radius: 268px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.logo img {
+    width: 228px;
+    height: 228px;
+    object-fit: contain;
+}
+
+.banner h1 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 16px 0 24px 0;
+}
+
+.banner-content button {
+    width: 19.75rem;
+    height: 3.438rem;
+    padding: 1rem 2rem;
+    border: 2px solid #3BA1CD;
+    text-transform: uppercase;
+    color: #31A8DD;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3.90px;
+    background-color: transparent;
+}
+
+
+/* footer{
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer a {
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer img{
+    /* width: 310px;
+    height: 44px;
+    flex-shrink: 0; 
+} */
