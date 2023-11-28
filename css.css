@@ -98,7 +98,7 @@ body {
     height: 35rem;
     padding: 200px;
     margin: 100px auto;
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(./assets/images/woman-code.png);
     background-size: cover;
     background-attachment: fixed;
     border-top: 1px solid #33A8DB;
